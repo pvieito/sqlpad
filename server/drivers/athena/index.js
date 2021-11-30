@@ -1,6 +1,6 @@
 const appLog = require('../../lib/app-log');
 const AWS = require('aws-sdk');
-const athena = require('athena-express');
+const athena = require('./athena-express');
 const sqlLimiter = require('sql-limiter');
 const { formatSchemaQueryResults } = require('../utils');
 
